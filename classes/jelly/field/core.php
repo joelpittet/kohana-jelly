@@ -233,7 +233,7 @@ abstract class Jelly_Field_Core
 	 * @return  void
 	 * @author  Woody Gilk
 	 */
-	public function _is_unique(Validate $data, $field)
+	protected function _is_unique(Validate $data, $field)
 	{
 		if ($data[$field])
 		{
